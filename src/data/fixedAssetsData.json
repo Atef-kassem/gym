@@ -1,0 +1,289 @@
+{
+  "fixedAssets": [
+    {
+      "id": "FA001",
+      "code": "EQ-001",
+      "nameAr": "ماكينة   عالية الضغط",
+      "nameEn": "High Pressure Washing Machine",
+      "category": "equipment",
+      "subcategory": "washing_equipment",
+      "purchaseDate": "2023-01-15",
+      "purchasePrice": 25000,
+      "currentValue": 20000,
+      "depreciationMethod": "straight_line",
+      "usefulLife": 5,
+      "salvageValue": 2500,
+      "location": "الورشة الرئيسية",
+      "supplier": "شركة المعدات المتطورة",
+      "serialNumber": "WM2023001",
+      "model": "PowerWash Pro 3000",
+      "status": "active",
+      "lastMaintenanceDate": "2024-01-10",
+      "nextMaintenanceDate": "2024-04-10",
+      "warranty": {
+        "startDate": "2023-01-15",
+        "endDate": "2025-01-15",
+        "provider": "الشركة المصنعة"
+      },
+      "insurance": {
+        "policyNumber": "INS-2023-001",
+        "provider": "شركة التأمين الوطنية",
+        "startDate": "2023-02-01",
+        "endDate": "2024-02-01",
+        "coverage": 30000
+      },
+      "documents": [
+        {
+          "type": "invoice",
+          "name": "ايصال الشراء",
+          "date": "2023-01-15",
+          "url": "/documents/FA001_invoice.pdf"
+        },
+        {
+          "type": "warranty",
+          "name": "شهادة الضمان",
+          "date": "2023-01-15",
+          "url": "/documents/FA001_warranty.pdf"
+        }
+      ]
+    },
+    {
+      "id": "FA002",
+      "code": "VH-001",
+      "nameAr": "شاحنة الخدمة المتنقلة",
+      "nameEn": "Mobile Service Truck",
+      "category": "vehicles",
+      "subcategory": "service_vehicles",
+      "purchaseDate": "2023-03-20",
+      "purchasePrice": 150000,
+      "currentValue": 135000,
+      "depreciationMethod": "reducing_balance",
+      "depreciationRate": 20,
+      "usefulLife": 8,
+      "salvageValue": 15000,
+      "location": "موقف الشركة",
+      "supplier": "وكالة  الكافية المتحدة",
+      "serialNumber": "TRUCK2023001",
+      "model": "Toyota Hiace 2023",
+      "plateNumber": "أ ب ج 1234",
+      "status": "active",
+      "lastMaintenanceDate": "2024-01-05",
+      "nextMaintenanceDate": "2024-04-05",
+      "mileage": 35000,
+      "fuelType": "gasoline",
+      "insurance": {
+        "policyNumber": "AUTO-2023-001",
+        "provider": "شركة التأمين التعاوني",
+        "startDate": "2023-03-20",
+        "endDate": "2024-03-20",
+        "coverage": 200000
+      },
+      "registration": {
+        "number": "REG-2023-001",
+        "expiryDate": "2024-03-20"
+      }
+    },
+    {
+      "id": "FA003",
+      "code": "IT-001",
+      "nameAr": "نظام نقاط البيع",
+      "nameEn": "POS System",
+      "category": "technology",
+      "subcategory": "computer_equipment",
+      "purchaseDate": "2023-02-10",
+      "purchasePrice": 15000,
+      "currentValue": 12000,
+      "depreciationMethod": "straight_line",
+      "usefulLife": 3,
+      "salvageValue": 1500,
+      "location": "مكتب الاستقبال",
+      "supplier": "شركة التقنية الحديثة",
+      "serialNumber": "POS2023001",
+      "model": "TouchPoint Pro",
+      "status": "active",
+      "specifications": {
+        "processor": "Intel i5",
+        "memory": "8GB RAM",
+        "storage": "256GB SSD",
+        "display": "15.6 inch touchscreen"
+      }
+    },
+    {
+      "id": "FA004",
+      "code": "FU-001",
+      "nameAr": "مكاتب إدارية",
+      "nameEn": "Office Furniture",
+      "category": "furniture",
+      "subcategory": "office_furniture",
+      "purchaseDate": "2023-01-30",
+      "purchasePrice": 8000,
+      "currentValue": 6400,
+      "depreciationMethod": "straight_line",
+      "usefulLife": 10,
+      "salvageValue": 800,
+      "location": "المكتب الإداري",
+      "supplier": "معرض الأثاث العصري",
+      "status": "active",
+      "items": [
+        "مكتب مدير",
+        "كج.مي مكتبية (4)",
+        "خزانة ملفات",
+        "طاولة اجتماعات"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "equipment",
+      "nameAr": "المعدات والآلات",
+      "nameEn": "Equipment and Machinery",
+      "depreciationRate": 20,
+      "usefulLife": 5
+    },
+    {
+      "id": "vehicles",
+      "nameAr": "المركبات",
+      "nameEn": "Vehicles",
+      "depreciationRate": 25,
+      "usefulLife": 8
+    },
+    {
+      "id": "technology",
+      "nameAr": "التقنية والحاسوب",
+      "nameEn": "Technology and Computers",
+      "depreciationRate": 33,
+      "usefulLife": 3
+    },
+    {
+      "id": "furniture",
+      "nameAr": "الأثاث والتجهيزات",
+      "nameEn": "Furniture and Fixtures",
+      "depreciationRate": 10,
+      "usefulLife": 10
+    },
+    {
+      "id": "buildings",
+      "nameAr": "المباني والإنشاءات",
+      "nameEn": "Buildings and Constructions",
+      "depreciationRate": 5,
+      "usefulLife": 20
+    }
+  ],
+  "maintenanceSchedule": [
+    {
+      "assetId": "FA001",
+      "type": "preventive",
+      "description": "صيانة دورية للماكينة",
+      "scheduledDate": "2024-04-10",
+      "frequency": "quarterly",
+      "estimatedCost": 500,
+      "assignedTechnician": "أحمد محمد",
+      "status": "scheduled"
+    },
+    {
+      "assetId": "FA002",
+      "type": "preventive",
+      "description": "صيانة دورية للشاحنة",
+      "scheduledDate": "2024-04-05",
+      "frequency": "quarterly",
+      "estimatedCost": 1200,
+      "assignedTechnician": "محمد علي",
+      "status": "scheduled"
+    },
+    {
+      "assetId": "FA001",
+      "type": "corrective",
+      "description": "إصلاح مضخة المياه",
+      "completedDate": "2024-01-10",
+      "actualCost": 350,
+      "technician": "أحمد محمد",
+      "status": "completed"
+    }
+  ],
+  "depreciationCalculations": [
+    {
+      "assetId": "FA001",
+      "year": 2023,
+      "openingValue": 25000,
+      "depreciationAmount": 4500,
+      "closingValue": 20500
+    },
+    {
+      "assetId": "FA001",
+      "year": 2024,
+      "openingValue": 20500,
+      "depreciationAmount": 4500,
+      "closingValue": 16000
+    },
+    {
+      "assetId": "FA002",
+      "year": 2023,
+      "openingValue": 150000,
+      "depreciationAmount": 22500,
+      "closingValue": 127500
+    },
+    {
+      "assetId": "FA002",
+      "year": 2024,
+      "openingValue": 127500,
+      "depreciationAmount": 19125,
+      "closingValue": 108375
+    }
+  ],
+  "disposalHistory": [
+    {
+      "assetId": "FA999",
+      "nameAr": "ماكينة   قديمة",
+      "disposalDate": "2023-12-15",
+      "disposalMethod": "sale",
+      "originalCost": 20000,
+      "accumulatedDepreciation": 18000,
+      "bookValue": 2000,
+      "disposalPrice": 1500,
+      "gainLoss": -500,
+      "reason": "انتهاء العمر الافتراضي"
+    }
+  ],
+  "locations": [
+    {
+      "id": "LOC001",
+      "nameAr": "الورشة الرئيسية",
+      "nameEn": "Main Workshop",
+      "type": "workshop",
+      "responsible": "أحمد محمد"
+    },
+    {
+      "id": "LOC002",
+      "nameAr": "موقف الشركة",
+      "nameEn": "Company Parking",
+      "type": "parking",
+      "responsible": "محمد علي"
+    },
+    {
+      "id": "LOC003",
+      "nameAr": "المكتب الإداري",
+      "nameEn": "Administrative Office",
+      "type": "office",
+      "responsible": "سارة أحمد"
+    }
+  ],
+  "reports": {
+    "assetRegister": {
+      "totalAssets": 198000,
+      "totalDepreciation": 24000,
+      "netBookValue": 174000,
+      "byCategory": [
+        { "category": "معدات", "value": 20000, "count": 1 },
+        { "category": "مركبات", "value": 135000, "count": 1 },
+        { "category": "تقنية", "value": 12000, "count": 1 },
+        { "category": "أثاث", "value": 6400, "count": 1 }
+      ]
+    },
+    "maintenanceCosts": {
+      "currentYear": 5200,
+      "previousYear": 4800,
+      "planned": 6000,
+      "actual": 5200
+    }
+  }
+}

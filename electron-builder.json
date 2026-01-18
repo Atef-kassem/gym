@@ -1,0 +1,65 @@
+{
+  "appId": "com.onemillion.app",
+  "productName": "OneM",
+  "copyright": "Copyright © 2025 ${author}",
+  "directories": {
+    "buildResources": "build",
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "node_modules/**/*",
+    "package.json"
+  ],
+  "extraResources": [
+    {
+      "from": "backend",
+      "to": "backend"
+    },
+    {
+      "from": "public",
+      "to": "public"
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "${productName}-${version}-Setup.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "OneM",
+    "perMachine": false,
+    "license": "LICENSE",
+    "language": "1033",
+    "warningsAsErrors": false
+  },
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ],
+    "category": "public.app-category.business",
+    "artifactName": "${productName}-${version}.${ext}"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "category": "Office",
+    "artifactName": "${productName}-${version}.${ext}"
+  },
+  "publish": null
+}
+

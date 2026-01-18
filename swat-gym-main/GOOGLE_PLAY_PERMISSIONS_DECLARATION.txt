@@ -1,0 +1,23 @@
+==========================================
+GOOGLE PLAY CONSOLE - PERMISSIONS DECLARATION
+(250 characters maximum per field)
+==========================================
+
+Copy and paste these texts into Google Play Console:
+
+------------------------------------------
+READ_MEDIA_IMAGES Permission Declaration:
+(249 characters)
+------------------------------------------
+
+Allows users to select profile pictures from gallery. Images accessed only when user explicitly uploads profile picture. No background access. One-time or infrequent use.
+
+------------------------------------------
+READ_MEDIA_VIDEO Permission Declaration:
+(249 characters)
+------------------------------------------
+
+Required by file_picker for media access. Videos accessed only when user selects video file. No background access. Rarely used, for future features.
+
+==========================================
+

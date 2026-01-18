@@ -1,0 +1,447 @@
+{
+  "bookings": [
+    {
+      "id": "MW001",
+      "customerName": "أحمد محمد عبدالله",
+      "phoneNumber": "0551234567",
+      "email": "ahmed.mohammed@email.com",
+      "location": {
+        "address": "الرياض - حي النخيل - شارع الملك فهد",
+        "coordinates": { "lat": 24.7136, "lng": 46.6753 },
+        "district": "حي النخيل"
+      },
+      "vehicleInfo": {
+        "make": "تويوتا",
+        "model": "كامري",
+        "year": "2022",
+        "color": "أبيض",
+        "plateNumber": "أ ب ج 1234"
+      },
+      "serviceDetails": {
+        "type": "  خارجي وداخلي",
+        "package": "الباقة الشاملة",
+        "services": ["  خارجي", "  داخلي", "تلميع", "تعطير"],
+        "duration": 45,
+        "price": 150
+      },
+      "scheduling": {
+        "date": "2024-01-25",
+        "time": "10:30",
+        "estimatedEndTime": "11:15"
+      },
+      "assignment": {
+        "vehicleId": "MW-001",
+        "technicianId": "T001",
+        "technicianName": "محمد علي أحمد"
+      },
+      "status": "في التنفيذ",
+      "paymentStatus": "مدفوع",
+      "paymentMethod": "بطاقة ائتمان",
+      "notes": "العميل يفضل استخدام مواد صديقة للبيئة",
+      "progress": 65,
+      "timestamps": {
+        "created": "2024-01-20T08:30:00Z",
+        "confirmed": "2024-01-20T08:35:00Z",
+        "started": "2024-01-25T10:30:00Z",
+        "updated": "2024-01-25T11:00:00Z"
+      },
+      "rating": null,
+      "feedback": null
+    },
+    {
+      "id": "MW002",
+      "customerName": "سارة أحمد محمد",
+      "phoneNumber": "0559876543",
+      "email": "sara.ahmed@email.com",
+      "location": {
+        "address": "الرياض - حي الملك فهد - مجمع الدانة",
+        "coordinates": { "lat": 24.6877, "lng": 46.7219 },
+        "district": "حي الملك فهد"
+      },
+      "vehicleInfo": {
+        "make": "هوندا",
+        "model": "أكورد",
+        "year": "2021",
+        "color": "أسود",
+        "plateNumber": "ه و ز 5678"
+      },
+      "serviceDetails": {
+        "type": "تلميع وتعقيم",
+        "package": "باقة التلميع المتقدم",
+        "services": ["تلميع خارجي", "تعقيم داخلي", "تنظيف الجنوط"],
+        "duration": 60,
+        "price": 200
+      },
+      "scheduling": {
+        "date": "2024-01-25",
+        "time": "11:15",
+        "estimatedEndTime": "12:15"
+      },
+      "assignment": {
+        "vehicleId": "MW-002",
+        "technicianId": "T002",
+        "technicianName": "خالد حسن علي"
+      },
+      "status": "في الطريق",
+      "paymentStatus": "مدفوع",
+      "paymentMethod": "نقدي",
+      "notes": "المشروب جديدة، يرجى توخي الحذر",
+      "progress": 0,
+      "timestamps": {
+        "created": "2024-01-19T14:20:00Z",
+        "confirmed": "2024-01-19T14:25:00Z",
+        "updated": "2024-01-25T11:15:00Z"
+      },
+      "rating": null,
+      "feedback": null
+    },
+    {
+      "id": "MW003",
+      "customerName": "عبدالله سالم محمد",
+      "phoneNumber": "0554567890",
+      "email": "abdullah.salem@email.com",
+      "location": {
+        "address": "الرياض - حي العليا - برج المملكة",
+        "coordinates": { "lat": 24.7118, "lng": 46.6747 },
+        "district": "حي العليا"
+      },
+      "vehicleInfo": {
+        "make": "بي إم دبليو",
+        "model": "X5",
+        "year": "2023",
+        "color": "رمادي",
+        "plateNumber": "ل م ن 9012"
+      },
+      "serviceDetails": {
+        "type": "  سريع",
+        "package": "الباقة السريعة",
+        "services": ["  خارجي سريع", "تجفيف"],
+        "duration": 30,
+        "price": 80
+      },
+      "scheduling": {
+        "date": "2024-01-25",
+        "time": "12:00",
+        "estimatedEndTime": "12:30"
+      },
+      "assignment": {
+        "vehicleId": "MW-003",
+        "technicianId": "T003",
+        "technicianName": "أحمد فتحي سالم"
+      },
+      "status": "مكتمل",
+      "paymentStatus": "مدفوع",
+      "paymentMethod": "تحويل بنكي",
+      "notes": "العميل مستعجل",
+      "progress": 100,
+      "timestamps": {
+        "created": "2024-01-24T16:45:00Z",
+        "confirmed": "2024-01-24T16:50:00Z",
+        "started": "2024-01-25T12:00:00Z",
+        "completed": "2024-01-25T12:30:00Z",
+        "updated": "2024-01-25T12:30:00Z"
+      },
+      "rating": 5,
+      "feedback": "خدمة ممتازة وسريعة، الفني كان محترف جداً"
+    }
+  ],
+  "fleet": [
+    {
+      "id": "MW-001",
+      "name": "مركبة الخدمة 1",
+      "details": {
+        "make": "إسوزو",
+        "model": "NPR",
+        "year": "2022",
+        "plateNumber": "ج د ه 1234",
+        "vin": "1FTFW1ET5DFC12345"
+      },
+      "driver": {
+        "id": "T001",
+        "name": "محمد علي أحمد",
+        "phone": "0551234567",
+        "email": "mohammed.ali@company.com",
+        "licenseNumber": "1234567890",
+        "experience": "5 سنوات",
+        "rating": 4.8,
+        "specialties": ["  شامل", "تلميع", "تعقيم"]
+      },
+      "location": {
+        "current": {
+          "address": "حي النخيل - الرياض",
+          "coordinates": { "lat": 24.7136, "lng": 46.6753 }
+        },
+        "lastUpdate": "2024-01-25T11:00:00Z"
+      },
+      "status": {
+        "operational": "نشط",
+        "availability": "مشغول",
+        "currentBooking": "MW001"
+      },
+      "vehicle": {
+        "fuelLevel": 85,
+        "mileage": 45000,
+        "speed": 0,
+        "engineHours": 2340
+      },
+      "maintenance": {
+        "lastService": "2024-01-15",
+        "nextService": "2024-02-15",
+        "serviceInterval": 5000,
+        "status": "جيد"
+      },
+      "equipment": [
+        {
+          "name": "غسالة ضغط عالي",
+          "model": "HP2000",
+          "status": "جيد"
+        },
+        {
+          "name": "خزان مياه",
+          "capacity": "500 لتر",
+          "level": "90%"
+        },
+        {
+          "name": "مولد كهرباء",
+          "power": "5000W",
+          "status": "جيد"
+        },
+        {
+          "name": "مكنسة كهربائية",
+          "model": "WetDry3000",
+          "status": "جيد"
+        }
+      ],
+      "performance": {
+        "todayServices": 3,
+        "weeklyServices": 18,
+        "monthlyServices": 78,
+        "totalRevenue": 23400,
+        "averageRating": 4.8,
+        "efficiency": 92
+      }
+    },
+    {
+      "id": "MW-002",
+      "name": "مركبة الخدمة 2",
+      "details": {
+        "make": "إسوزو",
+        "model": "NPR",
+        "year": "2021",
+        "plateNumber": "و ز ح 5678",
+        "vin": "1FTFW1ET5DFC56789"
+      },
+      "driver": {
+        "id": "T002",
+        "name": "خالد حسن علي",
+        "phone": "0559876543",
+        "email": "khalid.hassan@company.com",
+        "licenseNumber": "9876543210",
+        "experience": "3 سنوات",
+        "rating": 4.6,
+        "specialties": ["تلميع", "تعقيم", "تنظيف الجنوط"]
+      },
+      "location": {
+        "current": {
+          "address": "طريق الملك فهد",
+          "coordinates": { "lat": 24.6877, "lng": 46.7219 }
+        },
+        "lastUpdate": "2024-01-25T11:10:00Z"
+      },
+      "status": {
+        "operational": "نشط",
+        "availability": "في الطريق",
+        "currentBooking": "MW002"
+      },
+      "vehicle": {
+        "fuelLevel": 72,
+        "mileage": 52000,
+        "speed": 45,
+        "engineHours": 3120
+      },
+      "maintenance": {
+        "lastService": "2024-01-18",
+        "nextService": "2024-02-18",
+        "serviceInterval": 5000,
+        "status": "جيد"
+      },
+      "equipment": [
+        {
+          "name": "غسالة ضغط عالي",
+          "model": "HP2000",
+          "status": "جيد"
+        },
+        {
+          "name": "خزان مياه",
+          "capacity": "500 لتر",
+          "level": "85%"
+        },
+        {
+          "name": "مولد كهرباء",
+          "power": "5000W",
+          "status": "جيد"
+        },
+        {
+          "name": "مكنسة كهربائية",
+          "model": "WetDry3000",
+          "status": "جيد"
+        }
+      ],
+      "performance": {
+        "todayServices": 2,
+        "weeklyServices": 15,
+        "monthlyServices": 65,
+        "totalRevenue": 21800,
+        "averageRating": 4.6,
+        "efficiency": 88
+      }
+    }
+  ],
+  "customers": [
+    {
+      "id": "C001",
+      "personalInfo": {
+        "name": "أحمد محمد عبدالله",
+        "phone": "0551234567",
+        "email": "ahmed.mohammed@email.com",
+        "dateOfBirth": "1985-05-15",
+        "gender": "ذكر"
+      },
+      "address": {
+        "street": "شارع الملك فهد",
+        "district": "حي النخيل",
+        "city": "الرياض",
+        "postalCode": "12345"
+      },
+      "vehicles": [
+        {
+          "id": "V001",
+          "make": "تويوتا",
+          "model": "كامري",
+          "year": "2022",
+          "color": "أبيض",
+          "plateNumber": "أ ب ج 1234"
+        }
+      ],
+      "preferences": {
+        "preferredTime": "صباحي",
+        "preferredServices": ["  شامل", "تلميع"],
+        "ecoFriendly": true,
+        "notifications": {
+          "sms": true,
+          "email": true,
+          "whatsapp": true
+        }
+      },
+      "history": {
+        "totalBookings": 12,
+        "totalSpent": 1800,
+        "averageRating": 4.9,
+        "lastService": "2024-01-25",
+        "loyaltyPoints": 180
+      },
+      "status": "نشط",
+      "vipStatus": "ذهبي",
+      "joinDate": "2023-06-15"
+    }
+  ],
+  "services": [
+    {
+      "id": "S001",
+      "name": "  خارجي",
+      "category": "  أساسي",
+      "description": "  شامل للجزء الخارجي من المشروب",
+      "duration": 20,
+      "price": 50,
+      "includes": ["  الهيكل", "تنظيف الزجاج", "تنظيف الإطارات"],
+      "equipment": ["غسالة ضغط", "شامبو سيارات", "فوط تجفيف"]
+    },
+    {
+      "id": "S002",
+      "name": "  داخلي",
+      "category": "  أساسي",
+      "description": "تنظيف شامل لداخل المشروب",
+      "duration": 25,
+      "price": 60,
+      "includes": ["تنظيف المقاعد", "تنظيف لوحة القيادة", "تنظيف الأرضية"],
+      "equipment": ["مكنسة كهربائية", "منظفات داخلية", "فرش تنظيف"]
+    },
+    {
+      "id": "S003",
+      "name": "تلميع",
+      "category": "خدمات متقدمة",
+      "description": "تلميع احترافي للمشروب",
+      "duration": 40,
+      "price": 120,
+      "includes": ["تلميع الهيكل", "حماية الطلاء", "تلميع الكروم"],
+      "equipment": ["ملمع احترافي", "فوط مايكروفايبر", "شمع حماية"]
+    }
+  ],
+  "analytics": {
+    "overview": {
+      "totalBookings": 156,
+      "completedBookings": 142,
+      "cancelledBookings": 8,
+      "pendingBookings": 6,
+      "totalRevenue": 45600,
+      "averageBookingValue": 320,
+      "customerSatisfaction": 4.7
+    },
+    "performance": {
+      "daily": [
+        { "date": "2024-01-20", "bookings": 12, "revenue": 3600, "satisfaction": 4.6 },
+        { "date": "2024-01-21", "bookings": 15, "revenue": 4200, "satisfaction": 4.7 },
+        { "date": "2024-01-22", "bookings": 18, "revenue": 5100, "satisfaction": 4.8 },
+        { "date": "2024-01-23", "bookings": 14, "revenue": 3800, "satisfaction": 4.5 },
+        { "date": "2024-01-24", "bookings": 16, "revenue": 4400, "satisfaction": 4.9 },
+        { "date": "2024-01-25", "bookings": 20, "revenue": 5800, "satisfaction": 4.8 }
+      ],
+      "monthly": [
+        { "month": "أكتوبر", "bookings": 320, "revenue": 96000, "satisfaction": 4.4 },
+        { "month": "نوفمبر", "bookings": 385, "revenue": 115500, "satisfaction": 4.6 },
+        { "month": "ديسمبر", "bookings": 420, "revenue": 126000, "satisfaction": 4.5 },
+        { "month": "يناير", "bookings": 465, "revenue": 139500, "satisfaction": 4.7 }
+      ]
+    },
+    "fleet": {
+      "utilization": 85,
+      "averageFuelLevel": 78,
+      "maintenanceCompliance": 95,
+      "driverPerformance": 4.6
+    }
+  },
+  "quality": {
+    "feedback": [
+      {
+        "id": "FB001",
+        "bookingId": "MW003",
+        "customerId": "C001",
+        "customerName": "عبدالله سالم محمد",
+        "rating": 5,
+        "feedback": "خدمة ممتازة وسريعة، الفني كان محترف جداً",
+        "category": "إيجابي",
+        "technicianId": "T003",
+        "vehicleId": "MW-003",
+        "date": "2024-01-25",
+        "status": "مراجع"
+      }
+    ],
+    "inspections": [
+      {
+        "id": "QI001",
+        "vehicleId": "MW-001",
+        "technicianId": "T001",
+        "inspectorId": "I001",
+        "date": "2024-01-25",
+        "score": 92,
+        "criteria": [
+          { "item": "نظافة المعدات", "score": 95 },
+          { "item": "جودة ال ", "score": 90 },
+          { "item": "التعامل مع العميل", "score": 94 },
+          { "item": "الالتزام بالوقت", "score": 88 }
+        ],
+        "notes": "أداء ممتاز بشكل عام، يحتاج تحسين بسيط في سرعة الإنجاز"
+      }
+    ]
+  }
+}

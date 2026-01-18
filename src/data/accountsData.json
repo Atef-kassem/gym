@@ -1,0 +1,562 @@
+{
+  "chartOfAccounts": [
+    {
+      "id": "1",
+      "code": "1",
+      "nameAr": "الأصول",
+      "nameEn": "Assets",
+      "level": 1,
+      "parentId": null,
+      "accountType": "asset",
+      "isParent": true,
+      "balance": 0,
+      "children": [
+        {
+          "id": "1-01",
+          "code": "1-01",
+          "nameAr": "الأصول المتداولة",
+          "nameEn": "Current Assets",
+          "level": 2,
+          "parentId": "1",
+          "accountType": "asset",
+          "isParent": true,
+          "balance": 0,
+          "children": [
+            {
+              "id": "1-01-01",
+              "code": "1-01-01",
+              "nameAr": "النقدية والبنوك",
+              "nameEn": "Cash and Banks",
+              "level": 3,
+              "parentId": "1-01",
+              "accountType": "asset",
+              "isParent": true,
+              "balance": 150000,
+              "children": [
+                {
+                  "id": "1-01-01-001",
+                  "code": "1-01-01-001",
+                  "nameAr": "الصندوق الرئيسي",
+                  "nameEn": "Main Cash Box",
+                  "level": 4,
+                  "parentId": "1-01-01",
+                  "accountType": "asset",
+                  "isParent": false,
+                  "balance": 15000
+                },
+                {
+                  "id": "1-01-01-002",
+                  "code": "1-01-01-002",
+                  "nameAr": "بنك الرياض",
+                  "nameEn": "Riyadh Bank",
+                  "level": 4,
+                  "parentId": "1-01-01",
+                  "accountType": "asset",
+                  "isParent": false,
+                  "balance": 85000
+                },
+                {
+                  "id": "1-01-01-003",
+                  "code": "1-01-01-003",
+                  "nameAr": "البنك الأهلي",
+                  "nameEn": "National Bank",
+                  "level": 4,
+                  "parentId": "1-01-01",
+                  "accountType": "asset",
+                  "isParent": false,
+                  "balance": 50000
+                }
+              ]
+            },
+            {
+              "id": "1-01-02",
+              "code": "1-01-02",
+              "nameAr": "الذمم المدينة",
+              "nameEn": "Accounts Receivable",
+              "level": 3,
+              "parentId": "1-01",
+              "accountType": "asset",
+              "isParent": true,
+              "balance": 45000,
+              "children": [
+                {
+                  "id": "1-01-02-001",
+                  "code": "1-01-02-001",
+                  "nameAr": "عملاء شركات",
+                  "nameEn": "Corporate Customers",
+                  "level": 4,
+                  "parentId": "1-01-02",
+                  "accountType": "asset",
+                  "isParent": false,
+                  "balance": 30000
+                },
+                {
+                  "id": "1-01-02-002",
+                  "code": "1-01-02-002",
+                  "nameAr": "عملاء أفراد",
+                  "nameEn": "Individual Customers",
+                  "level": 4,
+                  "parentId": "1-01-02",
+                  "accountType": "asset",
+                  "isParent": false,
+                  "balance": 15000
+                }
+              ]
+            },
+            {
+              "id": "1-01-03",
+              "code": "1-01-03",
+              "nameAr": "المخزون",
+              "nameEn": "Inventory",
+              "level": 3,
+              "parentId": "1-01",
+              "accountType": "asset",
+              "isParent": false,
+              "balance": 75000
+            }
+          ]
+        },
+        {
+          "id": "1-02",
+          "code": "1-02",
+          "nameAr": "الأصول الثابتة",
+          "nameEn": "Fixed Assets",
+          "level": 2,
+          "parentId": "1",
+          "accountType": "asset",
+          "isParent": true,
+          "balance": 200000,
+          "children": [
+            {
+              "id": "1-02-01",
+              "code": "1-02-01",
+              "nameAr": "المعدات والآلات",
+              "nameEn": "Equipment and Machinery",
+              "level": 3,
+              "parentId": "1-02",
+              "accountType": "asset",
+              "isParent": false,
+              "balance": 120000
+            },
+            {
+              "id": "1-02-02",
+              "code": "1-02-02",
+              "nameAr": " الكافية",
+              "nameEn": "Vehicles",
+              "level": 3,
+              "parentId": "1-02",
+              "accountType": "asset",
+              "isParent": false,
+              "balance": 80000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "code": "2",
+      "nameAr": "الخصوم",
+      "nameEn": "Liabilities",
+      "level": 1,
+      "parentId": null,
+      "accountType": "liability",
+      "isParent": true,
+      "balance": 0,
+      "children": [
+        {
+          "id": "2-01",
+          "code": "2-01",
+          "nameAr": "الخصوم المتداولة",
+          "nameEn": "Current Liabilities",
+          "level": 2,
+          "parentId": "2",
+          "accountType": "liability",
+          "isParent": true,
+          "balance": 65000,
+          "children": [
+            {
+              "id": "2-01-01",
+              "code": "2-01-01",
+              "nameAr": "الذمم الدائنة",
+              "nameEn": "Accounts Payable",
+              "level": 3,
+              "parentId": "2-01",
+              "accountType": "liability",
+              "isParent": true,
+              "balance": 35000,
+              "children": [
+                {
+                  "id": "2-01-01-001",
+                  "code": "2-01-01-001",
+                  "nameAr": "موردو المنظفات",
+                  "nameEn": "Cleaning Supplies Vendors",
+                  "level": 4,
+                  "parentId": "2-01-01",
+                  "accountType": "liability",
+                  "isParent": false,
+                  "balance": 20000
+                },
+                {
+                  "id": "2-01-01-002",
+                  "code": "2-01-01-002",
+                  "nameAr": "موردو قطع   ",
+                  "nameEn": "Spare Parts Suppliers",
+                  "level": 4,
+                  "parentId": "2-01-01",
+                  "accountType": "liability",
+                  "isParent": false,
+                  "balance": 15000
+                }
+              ]
+            },
+            {
+              "id": "2-01-02",
+              "code": "2-01-02",
+              "nameAr": "ضريبة القيمة المضافة المستحقة",
+              "nameEn": "VAT Payable",
+              "level": 3,
+              "parentId": "2-01",
+              "accountType": "liability",
+              "isParent": false,
+              "balance": 15000
+            },
+            {
+              "id": "2-01-03",
+              "code": "2-01-03",
+              "nameAr": "مستحقات موظفين",
+              "nameEn": "Employee Accruals",
+              "level": 3,
+              "parentId": "2-01",
+              "accountType": "liability",
+              "isParent": false,
+              "balance": 15000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "code": "3",
+      "nameAr": "حقوق الملكية",
+      "nameEn": "Owner's Equity",
+      "level": 1,
+      "parentId": null,
+      "accountType": "equity",
+      "isParent": true,
+      "balance": 200000,
+      "children": [
+        {
+          "id": "3-01",
+          "code": "3-01",
+          "nameAr": "ج.م المال",
+          "nameEn": "Capital",
+          "level": 2,
+          "parentId": "3",
+          "accountType": "equity",
+          "isParent": false,
+          "balance": 200000
+        },
+        {
+          "id": "3-02",
+          "code": "3-02",
+          "nameAr": "الأرباح المحتجزة",
+          "nameEn": "Retained Earnings",
+          "level": 2,
+          "parentId": "3",
+          "accountType": "equity",
+          "isParent": false,
+          "balance": 0
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "code": "4",
+      "nameAr": "الإيرادات",
+      "nameEn": "Revenue",
+      "level": 1,
+      "parentId": null,
+      "accountType": "revenue",
+      "isParent": true,
+      "balance": 0,
+      "children": [
+        {
+          "id": "4-01",
+          "code": "4-01",
+          "nameAr": "إيرادات الخدمات",
+          "nameEn": "Service Revenue",
+          "level": 2,
+          "parentId": "4",
+          "accountType": "revenue",
+          "isParent": true,
+          "balance": 125000,
+          "children": [
+            {
+              "id": "4-01-01",
+              "code": "4-01-01",
+              "nameAr": "  سيارات",
+              "nameEn": "Car Wash Services",
+              "level": 3,
+              "parentId": "4-01",
+              "accountType": "revenue",
+              "isParent": false,
+              "balance": 80000
+            },
+            {
+              "id": "4-01-02",
+              "code": "4-01-02",
+              "nameAr": "تلميع وحماية",
+              "nameEn": "Polish and Protection",
+              "level": 3,
+              "parentId": "4-01",
+              "accountType": "revenue",
+              "isParent": false,
+              "balance": 45000
+            }
+          ]
+        },
+        {
+          "id": "4-02",
+          "code": "4-02",
+          "nameAr": "إيرادات المنتجات",
+          "nameEn": "Product Revenue",
+          "level": 2,
+          "parentId": "4",
+          "accountType": "revenue",
+          "isParent": false,
+          "balance": 25000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "code": "5",
+      "nameAr": "المصروفات",
+      "nameEn": "Expenses",
+      "level": 1,
+      "parentId": null,
+      "accountType": "expense",
+      "isParent": true,
+      "balance": 0,
+      "children": [
+        {
+          "id": "5-01",
+          "code": "5-01",
+          "nameAr": "المصروفات التشغيلية",
+          "nameEn": "Operating Expenses",
+          "level": 2,
+          "parentId": "5",
+          "accountType": "expense",
+          "isParent": true,
+          "balance": 85000,
+          "children": [
+            {
+              "id": "5-01-01",
+              "code": "5-01-01",
+              "nameAr": "الرواتب والأجور",
+              "nameEn": "Salaries and Wages",
+              "level": 3,
+              "parentId": "5-01",
+              "accountType": "expense",
+              "isParent": false,
+              "balance": 45000
+            },
+            {
+              "id": "5-01-02",
+              "code": "5-01-02",
+              "nameAr": "الإيجار",
+              "nameEn": "Rent",
+              "level": 3,
+              "parentId": "5-01",
+              "accountType": "expense",
+              "isParent": false,
+              "balance": 24000
+            },
+            {
+              "id": "5-01-03",
+              "code": "5-01-03",
+              "nameAr": "المرافق العامة",
+              "nameEn": "Utilities",
+              "level": 3,
+              "parentId": "5-01",
+              "accountType": "expense",
+              "isParent": false,
+              "balance": 8000
+            },
+            {
+              "id": "5-01-04",
+              "code": "5-01-04",
+              "nameAr": "الصيانة والإصلاح",
+              "nameEn": "Maintenance and Repairs",
+              "level": 3,
+              "parentId": "5-01",
+              "accountType": "expense",
+              "isParent": false,
+              "balance": 8000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": "JE001",
+      "date": "2024-01-15",
+      "reference": "INV-001",
+      "description": "بيع خدمات   نقدي",
+      "totalDebit": 1150,
+      "totalCredit": 1150,
+      "status": "posted",
+      "source": "POS",
+      "entries": [
+        {
+          "accountId": "1-01-01-001",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 1150,
+          "credit": 0,
+          "description": "تحصيل نقدي من العميل"
+        },
+        {
+          "accountId": "4-01-01",
+          "accountName": "  سيارات",
+          "debit": 0,
+          "credit": 1000,
+          "description": "إيرادات خدمة  "
+        },
+        {
+          "accountId": "2-01-02",
+          "accountName": "ضريبة القيمة المضافة المستحقة",
+          "debit": 0,
+          "credit": 150,
+          "description": "ضريبة قيمة مضافة 15%"
+        }
+      ]
+    },
+    {
+      "id": "JE002",
+      "date": "2024-01-16",
+      "reference": "PUR-001",
+      "description": "شراء مواد تنظيف",
+      "totalDebit": 2300,
+      "totalCredit": 2300,
+      "status": "posted",
+      "source": "PROCUREMENT",
+      "entries": [
+        {
+          "accountId": "1-01-03",
+          "accountName": "المخزون",
+          "debit": 2000,
+          "credit": 0,
+          "description": "مواد تنظيف ومنظفات"
+        },
+        {
+          "accountId": "1-01-01-001",
+          "accountName": "ضريبة القيمة المضافة المدفوعة",
+          "debit": 300,
+          "credit": 0,
+          "description": "ضريبة قيمة مضافة مدفوعة"
+        },
+        {
+          "accountId": "2-01-01-001",
+          "accountName": "موردو المنظفات",
+          "debit": 0,
+          "credit": 2300,
+          "description": "شراء آجل من المورد"
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "شركة النقل المصري",
+      "type": "corporate",
+      "phone": "+966501234567",
+      "email": "info@saudico.com",
+      "creditLimit": 50000,
+      "currentBalance": 15000,
+      "paymentTerms": "net30"
+    },
+    {
+      "id": "CUST002",
+      "name": "أحمد محمد العلي",
+      "type": "individual",
+      "phone": "+966507654321",
+      "email": "ahmed.ali@email.com",
+      "creditLimit": 5000,
+      "currentBalance": 500,
+      "paymentTerms": "cash"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUPP001",
+      "name": "شركة المنظفات المتطورة",
+      "type": "cleaning_supplies",
+      "phone": "+966112345678",
+      "email": "sales@cleantech.com",
+      "currentBalance": 20000,
+      "paymentTerms": "net15"
+    },
+    {
+      "id": "SUPP002",
+      "name": "مؤسسة قطع    الحديثة",
+      "type": "spare_parts",
+      "phone": "+966118765432",
+      "email": "info@spareparts.com",
+      "currentBalance": 15000,
+      "paymentTerms": "net30"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "RCP001",
+      "date": "2024-01-17",
+      "customerId": "CUST001",
+      "customerName": "شركة النقل المصري",
+      "amount": 10000,
+      "paymentMethod": "bank_transfer",
+      "bankAccount": "1-01-01-002",
+      "reference": "TRF-12345",
+      "description": "دفعة جزئية للإيصالات المستحقة",
+      "linkedInvoices": ["INV-100", "INV-101"]
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY001",
+      "date": "2024-01-18",
+      "supplierId": "SUPP001",
+      "supplierName": "شركة المنظفات المتطورة",
+      "amount": 8000,
+      "paymentMethod": "bank_transfer",
+      "bankAccount": "1-01-01-002",
+      "reference": "PAY-12345",
+      "description": "دفع ايصال مواد التنظيف",
+      "linkedInvoices": ["PUR-001"]
+    }
+  ],
+  "financialReports": {
+    "profitAndLoss": {
+      "period": "2024-01",
+      "revenue": 150000,
+      "expenses": 85000,
+      "netIncome": 65000
+    },
+    "balanceSheet": {
+      "date": "2024-01-31",
+      "totalAssets": 470000,
+      "totalLiabilities": 65000,
+      "totalEquity": 405000
+    },
+    "vatReport": {
+      "period": "2024-01",
+      "vatOutput": 22500,
+      "vatInput": 12750,
+      "vatDue": 9750
+    }
+  }
+}
